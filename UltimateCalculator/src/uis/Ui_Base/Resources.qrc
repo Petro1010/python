@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>credit.png</file>
+    <file>credits.png</file>
+    <file>stock1.png</file>
+    <file>stocks1.png</file>
+    <file>alg1.png</file>
+    <file>conv1.png</file>
+    <file>bin.png</file>
+    <file>geo.png</file>
+    <file>gpa.png</file>
+    <file>health.png</file>
+  </qresource>
+</RCC>

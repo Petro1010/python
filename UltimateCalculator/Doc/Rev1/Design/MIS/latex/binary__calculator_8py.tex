@@ -1,0 +1,370 @@
+\hypertarget{binary__calculator_8py}{}\section{src/uis/\+Calculators/binary\+\_\+calculator.py File Reference}
+\label{binary__calculator_8py}\index{src/uis/\+Calculators/binary\+\_\+calculator.\+py@{src/uis/\+Calculators/binary\+\_\+calculator.\+py}}
+
+
+Binary algorithms.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{binary__calculator_8py_aa4e5bd7c4a514c592fdbbc8d39d8db96}{binary\+\_\+calculator.\+to\+Floating\+Point} (n)
+\begin{DoxyCompactList}\small\item\em Calculates I\+E\+EE 754 representation from decimal. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_a37f2266dbd95f438fe1293cb63e95fb8}{binary\+\_\+calculator.\+to\+Decimal} (n)
+\begin{DoxyCompactList}\small\item\em Calculates decimal number from I\+E\+EE 754 representation. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_af7c77202b99b2d5558b445897258618b}{binary\+\_\+calculator.\+bin\+Add} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates sum of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_ad358d6e67ec21ec1025cce2183d491c9}{binary\+\_\+calculator.\+bin\+Sub} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates difference of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_abaf092e6dab88e974807aff94f12c69c}{binary\+\_\+calculator.\+bin\+Mult} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates product of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_a58deaaed29571302dbfd68c22b615752}{binary\+\_\+calculator.\+bin\+Div} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates quotient of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_af14cdd065d797225bd7de45af097e4f0}{binary\+\_\+calculator.\+bin\+Pow} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates power of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_a86fde77c9b817c5c479d5e93002e665f}{binary\+\_\+calculator.\+bitwise\+A\+ND} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates bitwise A\+ND of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_ac50101951e276bd216cd18308a787017}{binary\+\_\+calculator.\+bitwise\+OR} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates bitwise OR of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_adce8c6311d8ee4277160441895d40690}{binary\+\_\+calculator.\+bitwise\+N\+OT} (n)
+\begin{DoxyCompactList}\small\item\em Calculates bitwise N\+OT of binary number. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_a7a660a915ab78adc909c6aa761d18d00}{binary\+\_\+calculator.\+bitwise\+X\+OR} (n, m)
+\begin{DoxyCompactList}\small\item\em Calculates bitwise X\+OR of two binary numbers. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_af2cbf28fec66013a8b1ba1b3f0f548e2}{binary\+\_\+calculator.\+rshift} (n, shift\+Num, length)
+\begin{DoxyCompactList}\small\item\em Calculates rightward bit shift of binary number using given shift number and length. \end{DoxyCompactList}\item 
+def \hyperlink{binary__calculator_8py_af9c9d478f3f4476bf7fb363a622f7ca7}{binary\+\_\+calculator.\+lshift} (n, shift\+Num, length)
+\begin{DoxyCompactList}\small\item\em Calculates leftward bit shift of binary number using given shift number and length. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Binary algorithms. 
+
+\begin{DoxyDate}{Date}
+March 18, 2022 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{binary__calculator_8py_file_af7c77202b99b2d5558b445897258618b}\label{binary__calculator_8py_file_af7c77202b99b2d5558b445897258618b}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bin\+Add@{bin\+Add}}
+\index{bin\+Add@{bin\+Add}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bin\+Add()}{binAdd()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bin\+Add (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates sum of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sum of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_a58deaaed29571302dbfd68c22b615752}\label{binary__calculator_8py_file_a58deaaed29571302dbfd68c22b615752}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bin\+Div@{bin\+Div}}
+\index{bin\+Div@{bin\+Div}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bin\+Div()}{binDiv()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bin\+Div (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates quotient of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Quotient of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Zero\+Division\+Error} & Throws an exception if m equals zero \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_abaf092e6dab88e974807aff94f12c69c}\label{binary__calculator_8py_file_abaf092e6dab88e974807aff94f12c69c}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bin\+Mult@{bin\+Mult}}
+\index{bin\+Mult@{bin\+Mult}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bin\+Mult()}{binMult()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bin\+Mult (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates product of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Product of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_af14cdd065d797225bd7de45af097e4f0}\label{binary__calculator_8py_file_af14cdd065d797225bd7de45af097e4f0}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bin\+Pow@{bin\+Pow}}
+\index{bin\+Pow@{bin\+Pow}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bin\+Pow()}{binPow()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bin\+Pow (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates power of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Power of n to the m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid or n and m are both zero \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_ad358d6e67ec21ec1025cce2183d491c9}\label{binary__calculator_8py_file_ad358d6e67ec21ec1025cce2183d491c9}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bin\+Sub@{bin\+Sub}}
+\index{bin\+Sub@{bin\+Sub}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bin\+Sub()}{binSub()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bin\+Sub (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates difference of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Difference of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_a86fde77c9b817c5c479d5e93002e665f}\label{binary__calculator_8py_file_a86fde77c9b817c5c479d5e93002e665f}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bitwise\+A\+ND@{bitwise\+A\+ND}}
+\index{bitwise\+A\+ND@{bitwise\+A\+ND}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bitwise\+A\+N\+D()}{bitwiseAND()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bitwise\+A\+ND (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates bitwise A\+ND of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bitwise A\+ND of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_adce8c6311d8ee4277160441895d40690}\label{binary__calculator_8py_file_adce8c6311d8ee4277160441895d40690}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bitwise\+N\+OT@{bitwise\+N\+OT}}
+\index{bitwise\+N\+OT@{bitwise\+N\+OT}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bitwise\+N\+O\+T()}{bitwiseNOT()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bitwise\+N\+OT (\begin{DoxyParamCaption}\item[{}]{n }\end{DoxyParamCaption})}
+
+
+
+Calculates bitwise N\+OT of binary number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bitwise N\+OT of n 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n is invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_ac50101951e276bd216cd18308a787017}\label{binary__calculator_8py_file_ac50101951e276bd216cd18308a787017}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bitwise\+OR@{bitwise\+OR}}
+\index{bitwise\+OR@{bitwise\+OR}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bitwise\+O\+R()}{bitwiseOR()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bitwise\+OR (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates bitwise OR of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bitwise OR of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_a7a660a915ab78adc909c6aa761d18d00}\label{binary__calculator_8py_file_a7a660a915ab78adc909c6aa761d18d00}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!bitwise\+X\+OR@{bitwise\+X\+OR}}
+\index{bitwise\+X\+OR@{bitwise\+X\+OR}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{bitwise\+X\+O\+R()}{bitwiseXOR()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+bitwise\+X\+OR (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{m }\end{DoxyParamCaption})}
+
+
+
+Calculates bitwise X\+OR of two binary numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em m} & Binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bitwise X\+OR of n and m 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n or m are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_af9c9d478f3f4476bf7fb363a622f7ca7}\label{binary__calculator_8py_file_af9c9d478f3f4476bf7fb363a622f7ca7}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!lshift@{lshift}}
+\index{lshift@{lshift}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{lshift()}{lshift()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+lshift (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{shift\+Num,  }\item[{}]{length }\end{DoxyParamCaption})}
+
+
+
+Calculates leftward bit shift of binary number using given shift number and length. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em shift\+Num} & Number of shifts \\
+\hline
+{\em length} & Length of binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+n bit shifted leftward shift\+Num times 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n larger than length or n in invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_af2cbf28fec66013a8b1ba1b3f0f548e2}\label{binary__calculator_8py_file_af2cbf28fec66013a8b1ba1b3f0f548e2}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!rshift@{rshift}}
+\index{rshift@{rshift}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{rshift()}{rshift()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+rshift (\begin{DoxyParamCaption}\item[{}]{n,  }\item[{}]{shift\+Num,  }\item[{}]{length }\end{DoxyParamCaption})}
+
+
+
+Calculates rightward bit shift of binary number using given shift number and length. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Binary number \\
+\hline
+{\em shift\+Num} & Number of shifts \\
+\hline
+{\em length} & Length of binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+n bit shifted rightward shift\+Num times 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n larger than length or n in invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_a37f2266dbd95f438fe1293cb63e95fb8}\label{binary__calculator_8py_file_a37f2266dbd95f438fe1293cb63e95fb8}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!to\+Decimal@{to\+Decimal}}
+\index{to\+Decimal@{to\+Decimal}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{to\+Decimal()}{toDecimal()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+to\+Decimal (\begin{DoxyParamCaption}\item[{}]{n }\end{DoxyParamCaption})}
+
+
+
+Calculates decimal number from I\+E\+EE 754 representation. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & I\+E\+EE 754 binary number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Decimal representation 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n is invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{binary__calculator_8py_file_aa4e5bd7c4a514c592fdbbc8d39d8db96}\label{binary__calculator_8py_file_aa4e5bd7c4a514c592fdbbc8d39d8db96}} 
+\index{binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}!to\+Floating\+Point@{to\+Floating\+Point}}
+\index{to\+Floating\+Point@{to\+Floating\+Point}!binary\+\_\+calculator.\+py@{binary\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{to\+Floating\+Point()}{toFloatingPoint()}}
+{\footnotesize\ttfamily def binary\+\_\+calculator.\+to\+Floating\+Point (\begin{DoxyParamCaption}\item[{}]{n }\end{DoxyParamCaption})}
+
+
+
+Calculates I\+E\+EE 754 representation from decimal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & Decimal number \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+I\+E\+EE 754 floating point representation 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if n is too large \\
+\hline
+\end{DoxyExceptions}

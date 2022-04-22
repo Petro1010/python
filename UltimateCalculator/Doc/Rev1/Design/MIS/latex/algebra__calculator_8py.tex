@@ -1,0 +1,107 @@
+\hypertarget{algebra__calculator_8py}{}\section{src/uis/\+Calculators/algebra\+\_\+calculator.py File Reference}
+\label{algebra__calculator_8py}\index{src/uis/\+Calculators/algebra\+\_\+calculator.\+py@{src/uis/\+Calculators/algebra\+\_\+calculator.\+py}}
+
+
+Alegbraic algorithms.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{algebra__calculator_8py_af935266ec6ad78528f1adeb4470de058}{algebra\+\_\+calculator.\+slope\+Of\+Line} (x1, y1, x2, y2)
+\begin{DoxyCompactList}\small\item\em Calculates slope of a line given 2 points. \end{DoxyCompactList}\item 
+def \hyperlink{algebra__calculator_8py_a163b051062c0e36b45b965acb80db74e}{algebra\+\_\+calculator.\+y\+Intercept} (m, x, y)
+\begin{DoxyCompactList}\small\item\em Calculates y-\/intercept of a line given a point and the slope. \end{DoxyCompactList}\item 
+def \hyperlink{algebra__calculator_8py_ac52e25ab6ce734116b28919d3f29da42}{algebra\+\_\+calculator.\+py\+Theorem} (solve, a, b, c)
+\begin{DoxyCompactList}\small\item\em Calculates pythagorean theorem of a right triangle given two sides and the side to solve for. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Alegbraic algorithms. 
+
+\begin{DoxyDate}{Date}
+March 17, 2022 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{algebra__calculator_8py_file_ac52e25ab6ce734116b28919d3f29da42}\label{algebra__calculator_8py_file_ac52e25ab6ce734116b28919d3f29da42}} 
+\index{algebra\+\_\+calculator.\+py@{algebra\+\_\+calculator.\+py}!py\+Theorem@{py\+Theorem}}
+\index{py\+Theorem@{py\+Theorem}!algebra\+\_\+calculator.\+py@{algebra\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{py\+Theorem()}{pyTheorem()}}
+{\footnotesize\ttfamily def algebra\+\_\+calculator.\+py\+Theorem (\begin{DoxyParamCaption}\item[{}]{solve,  }\item[{}]{a,  }\item[{}]{b,  }\item[{}]{c }\end{DoxyParamCaption})}
+
+
+
+Calculates pythagorean theorem of a right triangle given two sides and the side to solve for. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em solve} & A string that represents the missing side \\
+\hline
+{\em a} & A real number that represents a side the is not the hypotenuse \\
+\hline
+{\em b} & A real number that represents a side the is not the hypotenuse \\
+\hline
+{\em c} & A real number that represents the hypotenuse \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The length of the missing side 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if hypotenuse is not the longest side or sides are not postive \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{algebra__calculator_8py_file_af935266ec6ad78528f1adeb4470de058}\label{algebra__calculator_8py_file_af935266ec6ad78528f1adeb4470de058}} 
+\index{algebra\+\_\+calculator.\+py@{algebra\+\_\+calculator.\+py}!slope\+Of\+Line@{slope\+Of\+Line}}
+\index{slope\+Of\+Line@{slope\+Of\+Line}!algebra\+\_\+calculator.\+py@{algebra\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{slope\+Of\+Line()}{slopeOfLine()}}
+{\footnotesize\ttfamily def algebra\+\_\+calculator.\+slope\+Of\+Line (\begin{DoxyParamCaption}\item[{}]{x1,  }\item[{}]{y1,  }\item[{}]{x2,  }\item[{}]{y2 }\end{DoxyParamCaption})}
+
+
+
+Calculates slope of a line given 2 points. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x1} & A real number that represents the X-\/coordinate of the first point \\
+\hline
+{\em y1} & A real number that represents the Y-\/coordinate of the first point \\
+\hline
+{\em x2} & A real number that represents the X-\/coordinate of the second point \\
+\hline
+{\em y2} & A real number that represents the Y-\/coordinate of the second point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The slope of the line 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Zero\+Division\+Error} & Throws an exception if x2 and x1 are equal \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{algebra__calculator_8py_file_a163b051062c0e36b45b965acb80db74e}\label{algebra__calculator_8py_file_a163b051062c0e36b45b965acb80db74e}} 
+\index{algebra\+\_\+calculator.\+py@{algebra\+\_\+calculator.\+py}!y\+Intercept@{y\+Intercept}}
+\index{y\+Intercept@{y\+Intercept}!algebra\+\_\+calculator.\+py@{algebra\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{y\+Intercept()}{yIntercept()}}
+{\footnotesize\ttfamily def algebra\+\_\+calculator.\+y\+Intercept (\begin{DoxyParamCaption}\item[{}]{m,  }\item[{}]{x,  }\item[{}]{y }\end{DoxyParamCaption})}
+
+
+
+Calculates y-\/intercept of a line given a point and the slope. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em m} & A real number that represents the slope of the line \\
+\hline
+{\em x} & A real number that represents the X-\/coordinate of the point \\
+\hline
+{\em y} & A real number that represents the Y-\/coordinate of the point \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The y-\/intercept of the line 
+\end{DoxyReturn}

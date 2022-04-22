@@ -1,0 +1,95 @@
+\hypertarget{classgpa__ui_1_1_g_p_a_window}{}\section{gpa\+\_\+ui.\+G\+P\+A\+Window Class Reference}
+\label{classgpa__ui_1_1_g_p_a_window}\index{gpa\+\_\+ui.\+G\+P\+A\+Window@{gpa\+\_\+ui.\+G\+P\+A\+Window}}
+
+
+\hyperlink{classgpa__ui_1_1_g_p_a_window}{G\+P\+A\+Window} is a class that implements the G\+UI components for the G\+PA operation menu.  
+
+
+Inheritance diagram for gpa\+\_\+ui.\+G\+P\+A\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classgpa__ui_1_1_g_p_a_window}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_ae2a617733f39b23bf5eae4e356ddb5ed}\label{classgpa__ui_1_1_g_p_a_window_ae2a617733f39b23bf5eae4e356ddb5ed}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, path=\char`\"{}\char`\"{})
+\item 
+def \hyperlink{classgpa__ui_1_1_g_p_a_window_a36e992cfdee2fc99be76c95f6a342249}{gpa} (self)
+\begin{DoxyCompactList}\small\item\em Displays the 12.\+0 gpa from the metrics the user provides. \end{DoxyCompactList}\item 
+def \hyperlink{classgpa__ui_1_1_g_p_a_window_aca39733da3d44f4a5d694d7becea6832}{add} (self)
+\begin{DoxyCompactList}\small\item\em Sets up the visual aspect of the calculator and sets up inputs. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_aa3d8cc6a27a5ae6df93e77553a4bd4fe}\label{classgpa__ui_1_1_g_p_a_window_aa3d8cc6a27a5ae6df93e77553a4bd4fe}} 
+def \hyperlink{classgpa__ui_1_1_g_p_a_window_aa3d8cc6a27a5ae6df93e77553a4bd4fe}{close\+Event} (self, event)
+\begin{DoxyCompactList}\small\item\em Closes window and clears inputs upon close. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_ad32cdace9a8a570568c48f9ca017aea3}\label{classgpa__ui_1_1_g_p_a_window_ad32cdace9a8a570568c48f9ca017aea3}} 
+def \hyperlink{classgpa__ui_1_1_g_p_a_window_ad32cdace9a8a570568c48f9ca017aea3}{clear\+Fields} (self)
+\begin{DoxyCompactList}\small\item\em Clears all input and output fields. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_a34487c55a57218bbaac85f9d1d7ab75e}\label{classgpa__ui_1_1_g_p_a_window_a34487c55a57218bbaac85f9d1d7ab75e}} 
+{\bfseries path}
+\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+list \hyperlink{classgpa__ui_1_1_g_p_a_window_a4a3352cb97e9c399dba7b5bf358e4938}{grade\+List} = \mbox{[}$\,$\mbox{]}
+\begin{DoxyCompactList}\small\item\em The constructor of the G\+PA window. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_a65ee1ddf42db3f0daa69c9a2303bc6be}\label{classgpa__ui_1_1_g_p_a_window_a65ee1ddf42db3f0daa69c9a2303bc6be}} 
+int {\bfseries index} = 0
+\item 
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_aa86bec5b54dc6fc81222d06272482575}\label{classgpa__ui_1_1_g_p_a_window_aa86bec5b54dc6fc81222d06272482575}} 
+int {\bfseries total\+Weight} = 0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classgpa__ui_1_1_g_p_a_window}{G\+P\+A\+Window} is a class that implements the G\+UI components for the G\+PA operation menu. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_aca39733da3d44f4a5d694d7becea6832}\label{classgpa__ui_1_1_g_p_a_window_aca39733da3d44f4a5d694d7becea6832}} 
+\index{gpa\+\_\+ui\+::\+G\+P\+A\+Window@{gpa\+\_\+ui\+::\+G\+P\+A\+Window}!add@{add}}
+\index{add@{add}!gpa\+\_\+ui\+::\+G\+P\+A\+Window@{gpa\+\_\+ui\+::\+G\+P\+A\+Window}}
+\subsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily def gpa\+\_\+ui.\+G\+P\+A\+Window.\+add (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Sets up the visual aspect of the calculator and sets up inputs. 
+
+Takes in the grades and their weights through input fields and shows the users grades in the window as a tuple. \mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_a36e992cfdee2fc99be76c95f6a342249}\label{classgpa__ui_1_1_g_p_a_window_a36e992cfdee2fc99be76c95f6a342249}} 
+\index{gpa\+\_\+ui\+::\+G\+P\+A\+Window@{gpa\+\_\+ui\+::\+G\+P\+A\+Window}!gpa@{gpa}}
+\index{gpa@{gpa}!gpa\+\_\+ui\+::\+G\+P\+A\+Window@{gpa\+\_\+ui\+::\+G\+P\+A\+Window}}
+\subsubsection{\texorpdfstring{gpa()}{gpa()}}
+{\footnotesize\ttfamily def gpa\+\_\+ui.\+G\+P\+A\+Window.\+gpa (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Displays the 12.\+0 gpa from the metrics the user provides. 
+
+Takes in the grades and their weights through input fields and shows the users G\+PA result on the window 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classgpa__ui_1_1_g_p_a_window_a4a3352cb97e9c399dba7b5bf358e4938}\label{classgpa__ui_1_1_g_p_a_window_a4a3352cb97e9c399dba7b5bf358e4938}} 
+\index{gpa\+\_\+ui\+::\+G\+P\+A\+Window@{gpa\+\_\+ui\+::\+G\+P\+A\+Window}!grade\+List@{grade\+List}}
+\index{grade\+List@{grade\+List}!gpa\+\_\+ui\+::\+G\+P\+A\+Window@{gpa\+\_\+ui\+::\+G\+P\+A\+Window}}
+\subsubsection{\texorpdfstring{grade\+List}{gradeList}}
+{\footnotesize\ttfamily list gpa\+\_\+ui.\+G\+P\+A\+Window.\+grade\+List = \mbox{[}$\,$\mbox{]}\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The constructor of the G\+PA window. 
+
+Creates a pop up window that displays and sets up the buttons that are necessary to navigate from the G\+PA window to other parts of the application. Also sets up the G\+PA window according to the created style sheet. 
+\begin{DoxyParams}{Parameters}
+{\em path} & The current path on which the file is found. Default value is an empty path. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/uis/\hyperlink{gpa__ui_8py}{gpa\+\_\+ui.\+py}\end{DoxyCompactItemize}

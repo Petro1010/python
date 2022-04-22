@@ -1,0 +1,90 @@
+\hypertarget{geometry__calculator_8py}{}\section{src/uis/\+Calculators/geometry\+\_\+calculator.py File Reference}
+\label{geometry__calculator_8py}\index{src/uis/\+Calculators/geometry\+\_\+calculator.\+py@{src/uis/\+Calculators/geometry\+\_\+calculator.\+py}}
+
+
+Geometry algorithms.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{geometry__calculator_8py_a43c3b60d5968ee27edb5df9d1edaa138}\label{geometry__calculator_8py_a43c3b60d5968ee27edb5df9d1edaa138}} 
+def {\bfseries geometry\+\_\+calculator.\+get\+Area} (shape, a, b, c, r)
+\item 
+def \hyperlink{geometry__calculator_8py_a3d78d69aa90819ae373ce9dc73bc3af8}{geometry\+\_\+calculator.\+get\+Perimeter} (shape, a, b, c, r)
+\begin{DoxyCompactList}\small\item\em Calculates perimeter of given shape with given side lengths or radius. \end{DoxyCompactList}\item 
+def \hyperlink{geometry__calculator_8py_ae0789b0a21a213ee7a5345397f267b41}{geometry\+\_\+calculator.\+get\+Volume} (shape, l, w, h, r)
+\begin{DoxyCompactList}\small\item\em Calculates volume of given shape with given dimensions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Geometry algorithms. 
+
+\begin{DoxyDate}{Date}
+March 18, 2022 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{geometry__calculator_8py_file_a3d78d69aa90819ae373ce9dc73bc3af8}\label{geometry__calculator_8py_file_a3d78d69aa90819ae373ce9dc73bc3af8}} 
+\index{geometry\+\_\+calculator.\+py@{geometry\+\_\+calculator.\+py}!get\+Perimeter@{get\+Perimeter}}
+\index{get\+Perimeter@{get\+Perimeter}!geometry\+\_\+calculator.\+py@{geometry\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{get\+Perimeter()}{getPerimeter()}}
+{\footnotesize\ttfamily def geometry\+\_\+calculator.\+get\+Perimeter (\begin{DoxyParamCaption}\item[{}]{shape,  }\item[{}]{a,  }\item[{}]{b,  }\item[{}]{c,  }\item[{}]{r }\end{DoxyParamCaption})}
+
+
+
+Calculates perimeter of given shape with given side lengths or radius. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em shape} & An integer that represents the shape \\
+\hline
+{\em a} & Side length a \\
+\hline
+{\em b} & Side length b \\
+\hline
+{\em c} & Side length c \\
+\hline
+{\em r} & Radius \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Perimeter 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if required side lengths or radius are invalid \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{geometry__calculator_8py_file_ae0789b0a21a213ee7a5345397f267b41}\label{geometry__calculator_8py_file_ae0789b0a21a213ee7a5345397f267b41}} 
+\index{geometry\+\_\+calculator.\+py@{geometry\+\_\+calculator.\+py}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!geometry\+\_\+calculator.\+py@{geometry\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{get\+Volume()}{getVolume()}}
+{\footnotesize\ttfamily def geometry\+\_\+calculator.\+get\+Volume (\begin{DoxyParamCaption}\item[{}]{shape,  }\item[{}]{l,  }\item[{}]{w,  }\item[{}]{h,  }\item[{}]{r }\end{DoxyParamCaption})}
+
+
+
+Calculates volume of given shape with given dimensions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em shape} & An integer that represents the shape \\
+\hline
+{\em l} & Length \\
+\hline
+{\em w} & Width \\
+\hline
+{\em h} & Height \\
+\hline
+{\em r} & Radius \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Volume 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if required dimensions invalid \\
+\hline
+\end{DoxyExceptions}

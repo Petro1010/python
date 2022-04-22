@@ -1,0 +1,408 @@
+\begin{theindex}
+
+  \item {\+\_\+\+\_\+init\+\_\+\+\_\+}
+    \subitem {algebra\+\_\+ui\+::\+Algebra\+Window}, \hyperpage{7}
+    \subitem {area\+\_\+ui\+::\+Area\+Window}, \hyperpage{9}
+    \subitem {B\+M\+I\+\_\+ui\+::\+B\+M\+I\+Window}, \hyperpage{15}
+    \subitem {binary\+\_\+arithmetic\+\_\+ui\+::\+Bin\+Arithmetic\+Window}, 
+		\hyperpage{11}
+    \subitem {binary\+\_\+ui\+::\+Binary\+Window}, \hyperpage{13}
+    \subitem {bitwise\+\_\+ui\+::\+Bitwise\+Window}, \hyperpage{14}
+    \subitem {Body\+Fat\+\_\+ui\+::\+B\+F\+Window}, \hyperpage{10}
+    \subitem {Conversion\+\_\+ui\+::\+Converter\+Window}, 
+		\hyperpage{22}
+    \subitem {Conversion\+Base\+\_\+ui\+::\+Conversion\+Base\+Window}, 
+		\hyperpage{16}
+    \subitem {Conversion\+Crypto\+\_\+ui\+::\+Conversion\+Crypto\+Window}, 
+		\hyperpage{18}
+    \subitem {Conversion\+Currency\+\_\+ui\+::\+Conversion\+Currency\+Window}, 
+		\hyperpage{19}
+    \subitem {Conversion\+R\+N\+\_\+ui\+::\+Conversion\+R\+N\+Window}, 
+		\hyperpage{20}
+    \subitem {floating\+\_\+point\+\_\+ui\+::\+Floating\+Point\+Window}, 
+		\hyperpage{23}
+    \subitem {geometry\+\_\+ui\+::\+Geometry\+Window}, \hyperpage{24}
+    \subitem {gpa\+\_\+ui\+::\+G\+P\+A\+Window}, \hyperpage{25}
+    \subitem {health\+\_\+ui\+::\+Health\+Window}, \hyperpage{27}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{28}
+    \subitem {perimeter\+\_\+ui\+::\+Perimeter\+Window}, \hyperpage{32}
+    \subitem {pythagore\+\_\+ui\+::\+Pytha\+Window}, \hyperpage{34}
+    \subitem {slope1\+\_\+ui\+::\+Slope1\+Window}, \hyperpage{35}
+    \subitem {slope2\+\_\+ui\+::\+Slope2\+Window}, \hyperpage{36}
+    \subitem {stock\+\_\+ui\+::\+Stock\+Window}, \hyperpage{38}
+    \subitem {volume\+\_\+ui\+::\+Volume\+Window}, \hyperpage{39}
+
+  \indexspace
+
+  \item {addition}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{29}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{62}
+  \item {algebra\+\_\+calculator.\+py}
+    \subitem {py\+Theorem}, \hyperpage{45}
+    \subitem {slope\+Of\+Line}, \hyperpage{46}
+    \subitem {y\+Intercept}, \hyperpage{46}
+  \item {algebra\+\_\+ui.\+Algebra\+Window}, \hyperpage{7}
+  \item {algebra\+\_\+ui\+::\+Algebra\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{7}
+  \item {area}
+    \subitem {area\+\_\+ui\+::\+Area\+Window}, \hyperpage{9}
+  \item {area\+\_\+ui.\+Area\+Window}, \hyperpage{8}
+  \item {area\+\_\+ui\+::\+Area\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{9}
+    \subitem {area}, \hyperpage{9}
+
+  \indexspace
+
+  \item {B\+M\+I\+\_\+ui.\+B\+M\+I\+Window}, \hyperpage{14}
+  \item {B\+M\+I\+\_\+ui\+::\+B\+M\+I\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{15}
+    \subitem {bmi}, \hyperpage{15}
+  \item {baseconvert}
+    \subitem {Conversion\+Base\+\_\+ui\+::\+Conversion\+Base\+Window}, 
+		\hyperpage{17}
+  \item {bf}
+    \subitem {Body\+Fat\+\_\+ui\+::\+B\+F\+Window}, \hyperpage{10}
+  \item {bin\+Add}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{48}
+  \item {bin\+Arithmetic}
+    \subitem {binary\+\_\+arithmetic\+\_\+ui\+::\+Bin\+Arithmetic\+Window}, 
+		\hyperpage{12}
+  \item {bin\+Div}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{48}
+  \item {bin\+Mult}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{49}
+  \item {bin\+Pow}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{49}
+  \item {bin\+Sub}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{50}
+  \item {binary\+\_\+arithmetic\+\_\+ui.\+Bin\+Arithmetic\+Window}, 
+		\hyperpage{11}
+  \item {binary\+\_\+arithmetic\+\_\+ui\+::\+Bin\+Arithmetic\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{11}
+    \subitem {bin\+Arithmetic}, \hyperpage{12}
+  \item {binary\+\_\+calculator.\+py}
+    \subitem {bin\+Add}, \hyperpage{48}
+    \subitem {bin\+Div}, \hyperpage{48}
+    \subitem {bin\+Mult}, \hyperpage{49}
+    \subitem {bin\+Pow}, \hyperpage{49}
+    \subitem {bin\+Sub}, \hyperpage{50}
+    \subitem {bitwise\+A\+ND}, \hyperpage{50}
+    \subitem {bitwise\+N\+OT}, \hyperpage{51}
+    \subitem {bitwise\+OR}, \hyperpage{51}
+    \subitem {bitwise\+X\+OR}, \hyperpage{52}
+    \subitem {lshift}, \hyperpage{52}
+    \subitem {rshift}, \hyperpage{53}
+    \subitem {to\+Decimal}, \hyperpage{53}
+    \subitem {to\+Floating\+Point}, \hyperpage{54}
+  \item {binary\+\_\+ui.\+Binary\+Window}, \hyperpage{12}
+  \item {binary\+\_\+ui\+::\+Binary\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{13}
+  \item {bitwise}
+    \subitem {bitwise\+\_\+ui\+::\+Bitwise\+Window}, \hyperpage{14}
+  \item {bitwise\+\_\+ui.\+Bitwise\+Window}, \hyperpage{13}
+  \item {bitwise\+\_\+ui\+::\+Bitwise\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{14}
+    \subitem {bitwise}, \hyperpage{14}
+  \item {bitwise\+A\+ND}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{50}
+  \item {bitwise\+N\+OT}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{51}
+  \item {bitwise\+OR}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{51}
+  \item {bitwise\+X\+OR}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{52}
+  \item {bmi}
+    \subitem {B\+M\+I\+\_\+ui\+::\+B\+M\+I\+Window}, \hyperpage{15}
+  \item {body\+Fat}
+    \subitem {health\+\_\+calculator.\+py}, \hyperpage{60}
+  \item {Body\+Fat\+\_\+ui.\+B\+F\+Window}, \hyperpage{9}
+  \item {Body\+Fat\+\_\+ui\+::\+B\+F\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{10}
+    \subitem {bf}, \hyperpage{10}
+  \item {body\+Mass\+Index}
+    \subitem {health\+\_\+calculator.\+py}, \hyperpage{60}
+
+  \indexspace
+
+  \item {calc\+User\+Gain\+Loss\+Case1}
+    \subitem {stocks\+\_\+calculator.\+py}, \hyperpage{63}
+  \item {calc\+User\+Gain\+Loss\+Case2}
+    \subitem {stocks\+\_\+calculator.\+py}, \hyperpage{64}
+  \item {conversion\+\_\+calculator.\+py}
+    \subitem {convert\+Base}, \hyperpage{55}
+    \subitem {convert\+Crypto}, \hyperpage{55}
+    \subitem {convert\+Currency}, \hyperpage{55}
+    \subitem {convert\+RN}, \hyperpage{56}
+  \item {Conversion\+\_\+ui.\+Converter\+Window}, \hyperpage{21}
+  \item {Conversion\+\_\+ui\+::\+Converter\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{22}
+  \item {Conversion\+Base\+\_\+ui.\+Conversion\+Base\+Window}, 
+		\hyperpage{16}
+  \item {Conversion\+Base\+\_\+ui\+::\+Conversion\+Base\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{16}
+    \subitem {baseconvert}, \hyperpage{17}
+  \item {Conversion\+Crypto\+\_\+ui.\+Conversion\+Crypto\+Window}, 
+		\hyperpage{17}
+  \item {Conversion\+Crypto\+\_\+ui\+::\+Conversion\+Crypto\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{18}
+    \subitem {cryptoconvert}, \hyperpage{18}
+  \item {Conversion\+Currency\+\_\+ui.\+Conversion\+Currency\+Window}, 
+		\hyperpage{18}
+  \item {Conversion\+Currency\+\_\+ui\+::\+Conversion\+Currency\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{19}
+    \subitem {currconvert}, \hyperpage{19}
+  \item {Conversion\+R\+N\+\_\+ui.\+Conversion\+R\+N\+Window}, 
+		\hyperpage{20}
+  \item {Conversion\+R\+N\+\_\+ui\+::\+Conversion\+R\+N\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{20}
+    \subitem {R\+Nconvert}, \hyperpage{21}
+  \item {convert\+Base}
+    \subitem {conversion\+\_\+calculator.\+py}, \hyperpage{55}
+  \item {convert\+Crypto}
+    \subitem {conversion\+\_\+calculator.\+py}, \hyperpage{55}
+  \item {convert\+Currency}
+    \subitem {conversion\+\_\+calculator.\+py}, \hyperpage{55}
+  \item {convert\+RN}
+    \subitem {conversion\+\_\+calculator.\+py}, \hyperpage{56}
+  \item {cryptoconvert}
+    \subitem {Conversion\+Crypto\+\_\+ui\+::\+Conversion\+Crypto\+Window}, 
+		\hyperpage{18}
+  \item {currconvert}
+    \subitem {Conversion\+Currency\+\_\+ui\+::\+Conversion\+Currency\+Window}, 
+		\hyperpage{19}
+
+  \indexspace
+
+  \item {display}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{29}
+  \item {division}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{29}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{62}
+
+  \indexspace
+
+  \item {equals}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{29}
+  \item {evaluate}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{62}
+
+  \indexspace
+
+  \item {floating\+\_\+point}
+    \subitem {floating\+\_\+point\+\_\+ui\+::\+Floating\+Point\+Window}, 
+		\hyperpage{23}
+  \item {floating\+\_\+point\+\_\+ui.\+Floating\+Point\+Window}, 
+		\hyperpage{22}
+  \item {floating\+\_\+point\+\_\+ui\+::\+Floating\+Point\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{23}
+    \subitem {floating\+\_\+point}, \hyperpage{23}
+
+  \indexspace
+
+  \item {geometry\+\_\+calculator.\+py}
+    \subitem {get\+Area}, \hyperpage{57}
+    \subitem {get\+Perimeter}, \hyperpage{57}
+    \subitem {get\+Volume}, \hyperpage{58}
+  \item {geometry\+\_\+ui.\+Geometry\+Window}, \hyperpage{24}
+  \item {geometry\+\_\+ui\+::\+Geometry\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{24}
+  \item {get\+Area}
+    \subitem {geometry\+\_\+calculator.\+py}, \hyperpage{57}
+  \item {get\+Mem}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{30}
+  \item {get\+Perimeter}
+    \subitem {geometry\+\_\+calculator.\+py}, \hyperpage{57}
+  \item {get\+Volume}
+    \subitem {geometry\+\_\+calculator.\+py}, \hyperpage{58}
+  \item {gpa}
+    \subitem {gpa\+\_\+ui\+::\+G\+P\+A\+Window}, \hyperpage{26}
+  \item {gpa\+\_\+calculator.\+py}
+    \subitem {gpa\+Calculate}, \hyperpage{59}
+  \item {gpa\+\_\+ui.\+G\+P\+A\+Window}, \hyperpage{25}
+  \item {gpa\+\_\+ui\+::\+G\+P\+A\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{25}
+    \subitem {gpa}, \hyperpage{26}
+  \item {gpa\+Calculate}
+    \subitem {gpa\+\_\+calculator.\+py}, \hyperpage{59}
+
+  \indexspace
+
+  \item {health\+\_\+calculator.\+py}
+    \subitem {body\+Fat}, \hyperpage{60}
+    \subitem {body\+Mass\+Index}, \hyperpage{60}
+  \item {health\+\_\+ui.\+Health\+Window}, \hyperpage{26}
+  \item {health\+\_\+ui\+::\+Health\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{27}
+
+  \indexspace
+
+  \item {key\+Press\+Event}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{30}
+
+  \indexspace
+
+  \item {left\+\_\+bracket}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{30}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{62}
+  \item {lshift}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{52}
+
+  \indexspace
+
+  \item {main.\+Main\+Window}, \hyperpage{27}
+  \item {main\+::\+Main\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{28}
+    \subitem {addition}, \hyperpage{29}
+    \subitem {display}, \hyperpage{29}
+    \subitem {division}, \hyperpage{29}
+    \subitem {equals}, \hyperpage{29}
+    \subitem {get\+Mem}, \hyperpage{30}
+    \subitem {key\+Press\+Event}, \hyperpage{30}
+    \subitem {left\+\_\+bracket}, \hyperpage{30}
+    \subitem {multiplication}, \hyperpage{30}
+    \subitem {power}, \hyperpage{30}
+    \subitem {reset}, \hyperpage{31}
+    \subitem {right\+\_\+bracket}, \hyperpage{31}
+    \subitem {store\+Mem}, \hyperpage{31}
+    \subitem {subtraction}, \hyperpage{31}
+    \subitem {value\+Input}, \hyperpage{31}
+  \item {main\+\_\+calculator.\+py}
+    \subitem {addition}, \hyperpage{62}
+    \subitem {division}, \hyperpage{62}
+    \subitem {evaluate}, \hyperpage{62}
+    \subitem {left\+\_\+bracket}, \hyperpage{62}
+    \subitem {multiplication}, \hyperpage{62}
+    \subitem {power}, \hyperpage{62}
+    \subitem {right\+\_\+bracket}, \hyperpage{63}
+    \subitem {subtraction}, \hyperpage{63}
+  \item {multiplication}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{30}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{62}
+
+  \indexspace
+
+  \item {perimeter}
+    \subitem {perimeter\+\_\+ui\+::\+Perimeter\+Window}, \hyperpage{33}
+  \item {perimeter\+\_\+ui.\+Perimeter\+Window}, \hyperpage{32}
+  \item {perimeter\+\_\+ui\+::\+Perimeter\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{32}
+    \subitem {perimeter}, \hyperpage{33}
+  \item {power}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{30}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{62}
+  \item {py\+Theorem}
+    \subitem {algebra\+\_\+calculator.\+py}, \hyperpage{45}
+  \item {pytha}
+    \subitem {pythagore\+\_\+ui\+::\+Pytha\+Window}, \hyperpage{34}
+  \item {pythagore\+\_\+ui.\+Pytha\+Window}, \hyperpage{33}
+  \item {pythagore\+\_\+ui\+::\+Pytha\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{34}
+    \subitem {pytha}, \hyperpage{34}
+
+  \indexspace
+
+  \item {R\+Nconvert}
+    \subitem {Conversion\+R\+N\+\_\+ui\+::\+Conversion\+R\+N\+Window}, 
+		\hyperpage{21}
+  \item {reset}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{31}
+  \item {right\+\_\+bracket}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{31}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{63}
+  \item {rshift}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{53}
+
+  \indexspace
+
+  \item {slope}
+    \subitem {slope1\+\_\+ui\+::\+Slope1\+Window}, \hyperpage{35}
+  \item {slope1\+\_\+ui.\+Slope1\+Window}, \hyperpage{34}
+  \item {slope1\+\_\+ui\+::\+Slope1\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{35}
+    \subitem {slope}, \hyperpage{35}
+  \item {slope2\+\_\+ui.\+Slope2\+Window}, \hyperpage{36}
+  \item {slope2\+\_\+ui\+::\+Slope2\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{36}
+    \subitem {y\+Int}, \hyperpage{37}
+  \item {slope\+Of\+Line}
+    \subitem {algebra\+\_\+calculator.\+py}, \hyperpage{46}
+  \item {src/main.\+py}, \hyperpage{41}
+  \item {src/uis/\+B\+M\+I\+\_\+ui.\+py}, \hyperpage{44}
+  \item {src/uis/\+Body\+Fat\+\_\+ui.\+py}, \hyperpage{44}
+  \item {src/uis/\+Calculators/algebra\+\_\+calculator.\+py}, 
+		\hyperpage{45}
+  \item {src/uis/\+Calculators/binary\+\_\+calculator.\+py}, 
+		\hyperpage{47}
+  \item {src/uis/\+Calculators/conversion\+\_\+calculator.\+py}, 
+		\hyperpage{54}
+  \item {src/uis/\+Calculators/geometry\+\_\+calculator.\+py}, 
+		\hyperpage{56}
+  \item {src/uis/\+Calculators/gpa\+\_\+calculator.\+py}, 
+		\hyperpage{59}
+  \item {src/uis/\+Calculators/health\+\_\+calculator.\+py}, 
+		\hyperpage{59}
+  \item {src/uis/\+Calculators/main\+\_\+calculator.\+py}, 
+		\hyperpage{61}
+  \item {src/uis/\+Calculators/stocks\+\_\+calculator.\+py}, 
+		\hyperpage{63}
+  \item {src/uis/\+Conversion\+\_\+ui.\+py}, \hyperpage{64}
+  \item {src/uis/\+Conversion\+Base\+\_\+ui.\+py}, \hyperpage{65}
+  \item {src/uis/\+Conversion\+Crypto\+\_\+ui.\+py}, \hyperpage{65}
+  \item {src/uis/\+Conversion\+Currency\+\_\+ui.\+py}, \hyperpage{66}
+  \item {src/uis/\+Conversion\+R\+N\+\_\+ui.\+py}, \hyperpage{66}
+  \item {src/uis/algebra\+\_\+ui.\+py}, \hyperpage{41}
+  \item {src/uis/area\+\_\+ui.\+py}, \hyperpage{42}
+  \item {src/uis/binary\+\_\+arithmetic\+\_\+ui.\+py}, \hyperpage{42}
+  \item {src/uis/binary\+\_\+ui.\+py}, \hyperpage{43}
+  \item {src/uis/bitwise\+\_\+ui.\+py}, \hyperpage{43}
+  \item {src/uis/floating\+\_\+point\+\_\+ui.\+py}, \hyperpage{67}
+  \item {src/uis/geometry\+\_\+ui.\+py}, \hyperpage{67}
+  \item {src/uis/gpa\+\_\+ui.\+py}, \hyperpage{68}
+  \item {src/uis/health\+\_\+ui.\+py}, \hyperpage{68}
+  \item {src/uis/perimeter\+\_\+ui.\+py}, \hyperpage{69}
+  \item {src/uis/pythagore\+\_\+ui.\+py}, \hyperpage{69}
+  \item {src/uis/slope1\+\_\+ui.\+py}, \hyperpage{70}
+  \item {src/uis/slope2\+\_\+ui.\+py}, \hyperpage{70}
+  \item {src/uis/stock\+\_\+ui.\+py}, \hyperpage{71}
+  \item {src/uis/volume\+\_\+ui.\+py}, \hyperpage{71}
+  \item {stock}
+    \subitem {stock\+\_\+ui\+::\+Stock\+Window}, \hyperpage{38}
+  \item {stock\+\_\+ui.\+Stock\+Window}, \hyperpage{37}
+  \item {stock\+\_\+ui\+::\+Stock\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{38}
+    \subitem {stock}, \hyperpage{38}
+  \item {stocks\+\_\+calculator.\+py}
+    \subitem {calc\+User\+Gain\+Loss\+Case1}, \hyperpage{63}
+    \subitem {calc\+User\+Gain\+Loss\+Case2}, \hyperpage{64}
+  \item {store\+Mem}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{31}
+  \item {subtraction}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{31}
+    \subitem {main\+\_\+calculator.\+py}, \hyperpage{63}
+
+  \indexspace
+
+  \item {to\+Decimal}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{53}
+  \item {to\+Floating\+Point}
+    \subitem {binary\+\_\+calculator.\+py}, \hyperpage{54}
+
+  \indexspace
+
+  \item {value\+Input}
+    \subitem {main\+::\+Main\+Window}, \hyperpage{31}
+  \item {volume}
+    \subitem {volume\+\_\+ui\+::\+Volume\+Window}, \hyperpage{39}
+  \item {volume\+\_\+ui.\+Volume\+Window}, \hyperpage{38}
+  \item {volume\+\_\+ui\+::\+Volume\+Window}
+    \subitem {\+\_\+\+\_\+init\+\_\+\+\_\+}, \hyperpage{39}
+    \subitem {volume}, \hyperpage{39}
+
+  \indexspace
+
+  \item {y\+Int}
+    \subitem {slope2\+\_\+ui\+::\+Slope2\+Window}, \hyperpage{37}
+  \item {y\+Intercept}
+    \subitem {algebra\+\_\+calculator.\+py}, \hyperpage{46}
+
+\end{theindex}

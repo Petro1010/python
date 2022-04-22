@@ -1,0 +1,74 @@
+\hypertarget{classvolume__ui_1_1_volume_window}{}\section{volume\+\_\+ui.\+Volume\+Window Class Reference}
+\label{classvolume__ui_1_1_volume_window}\index{volume\+\_\+ui.\+Volume\+Window@{volume\+\_\+ui.\+Volume\+Window}}
+
+
+\hyperlink{classvolume__ui_1_1_volume_window}{Volume\+Window} is a class that implements the G\+UI components for the Volume operation.  
+
+
+Inheritance diagram for volume\+\_\+ui.\+Volume\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classvolume__ui_1_1_volume_window}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classvolume__ui_1_1_volume_window_ab2ab926742b93b5fc0030332e60d4bc7}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, path=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em The constructor of the Volume window. \end{DoxyCompactList}\item 
+def \hyperlink{classvolume__ui_1_1_volume_window_a1b4cb7b0bd52c5898a39dbfb81e5cb85}{volume} (self)
+\begin{DoxyCompactList}\small\item\em Displays the volume of selected 3D shape given appropriate dimensions. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvolume__ui_1_1_volume_window_a54f4caafa94056dcb90403c976c6d4b3}\label{classvolume__ui_1_1_volume_window_a54f4caafa94056dcb90403c976c6d4b3}} 
+def \hyperlink{classvolume__ui_1_1_volume_window_a54f4caafa94056dcb90403c976c6d4b3}{set\+Fields} (self)
+\begin{DoxyCompactList}\small\item\em Changes and displays in text boxes corresponding to chosen shape. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvolume__ui_1_1_volume_window_ac1944f0385020e7c420f777d9c60b6df}\label{classvolume__ui_1_1_volume_window_ac1944f0385020e7c420f777d9c60b6df}} 
+def \hyperlink{classvolume__ui_1_1_volume_window_ac1944f0385020e7c420f777d9c60b6df}{close\+Event} (self, event)
+\begin{DoxyCompactList}\small\item\em Closes window and clears inputs upon close. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classvolume__ui_1_1_volume_window_a6c2e9282cb113a4b635719d5e3b2e80a}\label{classvolume__ui_1_1_volume_window_a6c2e9282cb113a4b635719d5e3b2e80a}} 
+def \hyperlink{classvolume__ui_1_1_volume_window_a6c2e9282cb113a4b635719d5e3b2e80a}{clear\+Fields} (self)
+\begin{DoxyCompactList}\small\item\em Clears all input and output fields. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvolume__ui_1_1_volume_window_ac1968ad0245de90cc4efb39c682d77b1}\label{classvolume__ui_1_1_volume_window_ac1968ad0245de90cc4efb39c682d77b1}} 
+{\bfseries path}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classvolume__ui_1_1_volume_window}{Volume\+Window} is a class that implements the G\+UI components for the Volume operation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classvolume__ui_1_1_volume_window_ab2ab926742b93b5fc0030332e60d4bc7}\label{classvolume__ui_1_1_volume_window_ab2ab926742b93b5fc0030332e60d4bc7}} 
+\index{volume\+\_\+ui\+::\+Volume\+Window@{volume\+\_\+ui\+::\+Volume\+Window}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!volume\+\_\+ui\+::\+Volume\+Window@{volume\+\_\+ui\+::\+Volume\+Window}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def volume\+\_\+ui.\+Volume\+Window.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+The constructor of the Volume window. 
+
+Creates a pop up window that displays and sets up the buttons and input fields that are necessary to obtain input from the user and calculate the appropriate answer. Also sets up the window according to the created style sheet. 
+\begin{DoxyParams}{Parameters}
+{\em path} & The current path on which the file is found. Default value is an empty path. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classvolume__ui_1_1_volume_window_a1b4cb7b0bd52c5898a39dbfb81e5cb85}\label{classvolume__ui_1_1_volume_window_a1b4cb7b0bd52c5898a39dbfb81e5cb85}} 
+\index{volume\+\_\+ui\+::\+Volume\+Window@{volume\+\_\+ui\+::\+Volume\+Window}!volume@{volume}}
+\index{volume@{volume}!volume\+\_\+ui\+::\+Volume\+Window@{volume\+\_\+ui\+::\+Volume\+Window}}
+\subsubsection{\texorpdfstring{volume()}{volume()}}
+{\footnotesize\ttfamily def volume\+\_\+ui.\+Volume\+Window.\+volume (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Displays the volume of selected 3D shape given appropriate dimensions. 
+
+Takes in up to 3 dimensions and/or radius as input from the user through input fields, and shows the user the result on the window 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/uis/\hyperlink{volume__ui_8py}{volume\+\_\+ui.\+py}\end{DoxyCompactItemize}

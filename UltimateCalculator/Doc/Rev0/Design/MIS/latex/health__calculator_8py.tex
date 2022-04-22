@@ -1,0 +1,81 @@
+\hypertarget{health__calculator_8py}{}\section{src/uis/\+Calculators/health\+\_\+calculator.py File Reference}
+\label{health__calculator_8py}\index{src/uis/\+Calculators/health\+\_\+calculator.\+py@{src/uis/\+Calculators/health\+\_\+calculator.\+py}}
+
+
+Health algorithms.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{health__calculator_8py_a19850e303abf3a22af94fed5ddbcba0a}{health\+\_\+calculator.\+body\+Mass\+Index} (weight, height)
+\begin{DoxyCompactList}\small\item\em Calculates the body mass index of a person. \end{DoxyCompactList}\item 
+def \hyperlink{health__calculator_8py_a50c661d5c5135d2c12eb9ae84842320c}{health\+\_\+calculator.\+body\+Fat} (gender, height, neck, waist, hip=None)
+\begin{DoxyCompactList}\small\item\em Calculates the body fat percentage of a person. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Health algorithms. 
+
+\begin{DoxyDate}{Date}
+March 17, 2022 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{health__calculator_8py_file_a50c661d5c5135d2c12eb9ae84842320c}\label{health__calculator_8py_file_a50c661d5c5135d2c12eb9ae84842320c}} 
+\index{health\+\_\+calculator.\+py@{health\+\_\+calculator.\+py}!body\+Fat@{body\+Fat}}
+\index{body\+Fat@{body\+Fat}!health\+\_\+calculator.\+py@{health\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{body\+Fat()}{bodyFat()}}
+{\footnotesize\ttfamily def health\+\_\+calculator.\+body\+Fat (\begin{DoxyParamCaption}\item[{}]{gender,  }\item[{}]{height,  }\item[{}]{neck,  }\item[{}]{waist,  }\item[{}]{hip = {\ttfamily None} }\end{DoxyParamCaption})}
+
+
+
+Calculates the body fat percentage of a person. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gender} & A string that represents the gender of the person \\
+\hline
+{\em height} & A real number that represents the height of the user in centimeters \\
+\hline
+{\em neck} & A real number that represents the size of a person\textquotesingle{}s neck in centimeters \\
+\hline
+{\em waist} & A real number that represents the size of a person\textquotesingle{}s waist in centimeters \\
+\hline
+{\em hip} & A real number that represents the size of a person\textquotesingle{}s hip in centimeters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string displaying the body fat percentage and its meaning 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if a measurement is 0 \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{health__calculator_8py_file_a19850e303abf3a22af94fed5ddbcba0a}\label{health__calculator_8py_file_a19850e303abf3a22af94fed5ddbcba0a}} 
+\index{health\+\_\+calculator.\+py@{health\+\_\+calculator.\+py}!body\+Mass\+Index@{body\+Mass\+Index}}
+\index{body\+Mass\+Index@{body\+Mass\+Index}!health\+\_\+calculator.\+py@{health\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{body\+Mass\+Index()}{bodyMassIndex()}}
+{\footnotesize\ttfamily def health\+\_\+calculator.\+body\+Mass\+Index (\begin{DoxyParamCaption}\item[{}]{weight,  }\item[{}]{height }\end{DoxyParamCaption})}
+
+
+
+Calculates the body mass index of a person. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em weight} & A real number that represents the weight of the user in pounds \\
+\hline
+{\em height} & A real number that represents the height of the user in centimeters \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string displaying the B\+MI coefficient and its meaning 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & Throws an exception if height is 0 \\
+\hline
+\end{DoxyExceptions}

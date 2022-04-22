@@ -1,0 +1,71 @@
+\hypertarget{class_body_fat__ui_1_1_b_f_window}{}\section{Body\+Fat\+\_\+ui.\+B\+F\+Window Class Reference}
+\label{class_body_fat__ui_1_1_b_f_window}\index{Body\+Fat\+\_\+ui.\+B\+F\+Window@{Body\+Fat\+\_\+ui.\+B\+F\+Window}}
+
+
+\hyperlink{class_body_fat__ui_1_1_b_f_window}{B\+F\+Window} is a class that implements the G\+UI components for the Body Fat operation.  
+
+
+Inheritance diagram for Body\+Fat\+\_\+ui.\+B\+F\+Window\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_body_fat__ui_1_1_b_f_window}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{class_body_fat__ui_1_1_b_f_window_a3ee0d136b0b25e045fd9a8a6356819b1}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, path=\char`\"{}\char`\"{})
+\begin{DoxyCompactList}\small\item\em The constructor of the Body Fat window. \end{DoxyCompactList}\item 
+def \hyperlink{class_body_fat__ui_1_1_b_f_window_a1c3b98d97dc41255235c5e739980b16f}{bf} (self)
+\begin{DoxyCompactList}\small\item\em Displays the Body Fat rating and its meaning based on the metrics the user provides. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_body_fat__ui_1_1_b_f_window_a25e504f2540df47b7c81d7febf5eeec2}\label{class_body_fat__ui_1_1_b_f_window_a25e504f2540df47b7c81d7febf5eeec2}} 
+def \hyperlink{class_body_fat__ui_1_1_b_f_window_a25e504f2540df47b7c81d7febf5eeec2}{close\+Event} (self, event)
+\begin{DoxyCompactList}\small\item\em Resets fields and closes window. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_body_fat__ui_1_1_b_f_window_a24594a009a7f736a732253c4d7304c24}\label{class_body_fat__ui_1_1_b_f_window_a24594a009a7f736a732253c4d7304c24}} 
+def \hyperlink{class_body_fat__ui_1_1_b_f_window_a24594a009a7f736a732253c4d7304c24}{clear\+Fields} (self)
+\begin{DoxyCompactList}\small\item\em Clears all input and output fields. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_body_fat__ui_1_1_b_f_window_a22747b4a05d316e1ac4d9421051427b5}\label{class_body_fat__ui_1_1_b_f_window_a22747b4a05d316e1ac4d9421051427b5}} 
+{\bfseries path}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_body_fat__ui_1_1_b_f_window}{B\+F\+Window} is a class that implements the G\+UI components for the Body Fat operation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_body_fat__ui_1_1_b_f_window_a3ee0d136b0b25e045fd9a8a6356819b1}\label{class_body_fat__ui_1_1_b_f_window_a3ee0d136b0b25e045fd9a8a6356819b1}} 
+\index{Body\+Fat\+\_\+ui\+::\+B\+F\+Window@{Body\+Fat\+\_\+ui\+::\+B\+F\+Window}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Body\+Fat\+\_\+ui\+::\+B\+F\+Window@{Body\+Fat\+\_\+ui\+::\+B\+F\+Window}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Body\+Fat\+\_\+ui.\+B\+F\+Window.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{path = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})}
+
+
+
+The constructor of the Body Fat window. 
+
+Creates a pop up window that displays and sets up the buttons and input fields that are necessary to obtain input from the user and calculate the appropriate answer. Also sets up the window according to the created style sheet. 
+\begin{DoxyParams}{Parameters}
+{\em path} & The current path on which the file is found. Default value is an empty path. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_body_fat__ui_1_1_b_f_window_a1c3b98d97dc41255235c5e739980b16f}\label{class_body_fat__ui_1_1_b_f_window_a1c3b98d97dc41255235c5e739980b16f}} 
+\index{Body\+Fat\+\_\+ui\+::\+B\+F\+Window@{Body\+Fat\+\_\+ui\+::\+B\+F\+Window}!bf@{bf}}
+\index{bf@{bf}!Body\+Fat\+\_\+ui\+::\+B\+F\+Window@{Body\+Fat\+\_\+ui\+::\+B\+F\+Window}}
+\subsubsection{\texorpdfstring{bf()}{bf()}}
+{\footnotesize\ttfamily def Body\+Fat\+\_\+ui.\+B\+F\+Window.\+bf (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Displays the Body Fat rating and its meaning based on the metrics the user provides. 
+
+Takes in age, gender, height, and weight from the user through input fields, and shows the user the result on the window 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/uis/\hyperlink{_body_fat__ui_8py}{Body\+Fat\+\_\+ui.\+py}\end{DoxyCompactItemize}

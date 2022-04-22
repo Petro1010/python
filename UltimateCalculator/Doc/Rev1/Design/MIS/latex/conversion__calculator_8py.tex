@@ -1,0 +1,210 @@
+\hypertarget{conversion__calculator_8py}{}\section{src/uis/\+Calculators/conversion\+\_\+calculator.py File Reference}
+\label{conversion__calculator_8py}\index{src/uis/\+Calculators/conversion\+\_\+calculator.\+py@{src/uis/\+Calculators/conversion\+\_\+calculator.\+py}}
+
+
+Conversion Algorithms.  
+
+
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{conversion__calculator_8py_a2411c187a621c4dbd40abbd4b39b8f58}{conversion\+\_\+calculator.\+convert\+Currency} (initial\+Val, curr\+From, curr\+To)
+\begin{DoxyCompactList}\small\item\em Converts from selected currency to another selected currency. \end{DoxyCompactList}\item 
+def \hyperlink{conversion__calculator_8py_a678dac073b6005aad175651c6385c6b6}{conversion\+\_\+calculator.\+convert\+Crypto} (initial\+Val, curr\+From, curr\+To)
+\begin{DoxyCompactList}\small\item\em Converts from selected cryptocurrency to another selected cryptocurrency. \end{DoxyCompactList}\item 
+def \hyperlink{conversion__calculator_8py_a59b0b5a9dc0fff18a7501bd03b1b41f2}{conversion\+\_\+calculator.\+convert\+Base} (initial\+Val, base\+From, base\+To)
+\begin{DoxyCompactList}\small\item\em Converts from a selected numerical value of a base to another base value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{conversion__calculator_8py_acb32052fba2fbf48b06d419fded72c3b}\label{conversion__calculator_8py_acb32052fba2fbf48b06d419fded72c3b}} 
+def {\bfseries conversion\+\_\+calculator.\+dec\+To\+Bin} (x, arr)
+\item 
+\mbox{\Hypertarget{conversion__calculator_8py_a879911171d7aa03dcdaceaa1b1e20440}\label{conversion__calculator_8py_a879911171d7aa03dcdaceaa1b1e20440}} 
+def {\bfseries conversion\+\_\+calculator.\+dec\+To\+Oct} (x, arr)
+\item 
+\mbox{\Hypertarget{conversion__calculator_8py_afda0eedeab954edca67f42816f2dad13}\label{conversion__calculator_8py_afda0eedeab954edca67f42816f2dad13}} 
+def {\bfseries conversion\+\_\+calculator.\+dec\+To\+Hex} (x, arr)
+\item 
+def \hyperlink{conversion__calculator_8py_a37d5e6ed83550a66ee6245503dca0638}{conversion\+\_\+calculator.\+convert\+RN} (initial\+Val, R\+N\+From, R\+N\+To)
+\begin{DoxyCompactList}\small\item\em Converts from a decimal value to a roman numeral value and from a roman numeral value to a decimal value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{conversion__calculator_8py_a251cdeeccff6daac3922e08ed344fcf2}\label{conversion__calculator_8py_a251cdeeccff6daac3922e08ed344fcf2}} 
+def {\bfseries conversion\+\_\+calculator.\+decto\+RN} (x)
+\item 
+\mbox{\Hypertarget{conversion__calculator_8py_a55c4824f9062940058cb7999b3ad8ac5}\label{conversion__calculator_8py_a55c4824f9062940058cb7999b3ad8ac5}} 
+def {\bfseries conversion\+\_\+calculator.\+roman\+To\+Int} (x)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+dictionary {\bfseries conversion\+\_\+calculator.\+currency\+C\+Vals}
+\item 
+dictionary {\bfseries conversion\+\_\+calculator.\+crypto\+C\+Vals}
+\item 
+dictionary {\bfseries conversion\+\_\+calculator.\+conversion\+\_\+table}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Conversion Algorithms. 
+
+\begin{DoxyDate}{Date}
+March 18, 2022 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{conversion__calculator_8py_file_a59b0b5a9dc0fff18a7501bd03b1b41f2}\label{conversion__calculator_8py_file_a59b0b5a9dc0fff18a7501bd03b1b41f2}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!convert\+Base@{convert\+Base}}
+\index{convert\+Base@{convert\+Base}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{convert\+Base()}{convertBase()}}
+{\footnotesize\ttfamily def conversion\+\_\+calculator.\+convert\+Base (\begin{DoxyParamCaption}\item[{}]{initial\+Val,  }\item[{}]{base\+From,  }\item[{}]{base\+To }\end{DoxyParamCaption})}
+
+
+
+Converts from a selected numerical value of a base to another base value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Val} & A real number that represents the initial numerical value \\
+\hline
+{\em base\+From} & A string value that represents the base of the initial\+Val \\
+\hline
+{\em base\+To} & A string value that represents which base to convert to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the final value after conversion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{conversion__calculator_8py_file_a678dac073b6005aad175651c6385c6b6}\label{conversion__calculator_8py_file_a678dac073b6005aad175651c6385c6b6}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!convert\+Crypto@{convert\+Crypto}}
+\index{convert\+Crypto@{convert\+Crypto}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{convert\+Crypto()}{convertCrypto()}}
+{\footnotesize\ttfamily def conversion\+\_\+calculator.\+convert\+Crypto (\begin{DoxyParamCaption}\item[{}]{initial\+Val,  }\item[{}]{curr\+From,  }\item[{}]{curr\+To }\end{DoxyParamCaption})}
+
+
+
+Converts from selected cryptocurrency to another selected cryptocurrency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Val} & A real number that represents the cryptocurrency value \\
+\hline
+{\em curr\+From} & A string value that represents the cryptocurrency of the initial\+Val \\
+\hline
+{\em curr\+To} & A string value that represents which cryptocurrency to convert to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the final value after conversion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{conversion__calculator_8py_file_a2411c187a621c4dbd40abbd4b39b8f58}\label{conversion__calculator_8py_file_a2411c187a621c4dbd40abbd4b39b8f58}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!convert\+Currency@{convert\+Currency}}
+\index{convert\+Currency@{convert\+Currency}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{convert\+Currency()}{convertCurrency()}}
+{\footnotesize\ttfamily def conversion\+\_\+calculator.\+convert\+Currency (\begin{DoxyParamCaption}\item[{}]{initial\+Val,  }\item[{}]{curr\+From,  }\item[{}]{curr\+To }\end{DoxyParamCaption})}
+
+
+
+Converts from selected currency to another selected currency. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Val} & A real number that represents the currency value \\
+\hline
+{\em curr\+From} & A string value that represents the currency of the initial\+Val \\
+\hline
+{\em curr\+To} & A string value that represents which currency to convert to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the final value after conversion 
+\end{DoxyReturn}
+\mbox{\Hypertarget{conversion__calculator_8py_file_a37d5e6ed83550a66ee6245503dca0638}\label{conversion__calculator_8py_file_a37d5e6ed83550a66ee6245503dca0638}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!convert\+RN@{convert\+RN}}
+\index{convert\+RN@{convert\+RN}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{convert\+R\+N()}{convertRN()}}
+{\footnotesize\ttfamily def conversion\+\_\+calculator.\+convert\+RN (\begin{DoxyParamCaption}\item[{}]{initial\+Val,  }\item[{}]{R\+N\+From,  }\item[{}]{R\+N\+To }\end{DoxyParamCaption})}
+
+
+
+Converts from a decimal value to a roman numeral value and from a roman numeral value to a decimal value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Val} & A string that represents the initial value \\
+\hline
+{\em R\+N\+From} & A string value that represents the type of the initial\+Val \\
+\hline
+{\em R\+N\+To} & A string value that represents which type to convert to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the final value after conversion 
+\end{DoxyReturn}
+
+
+\subsection{Variable Documentation}
+\mbox{\Hypertarget{conversion__calculator_8py_file_a0222f4aef338619c4d7e7a44fcb69481}\label{conversion__calculator_8py_file_a0222f4aef338619c4d7e7a44fcb69481}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!conversion\+\_\+table@{conversion\+\_\+table}}
+\index{conversion\+\_\+table@{conversion\+\_\+table}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{conversion\+\_\+table}{conversion\_table}}
+{\footnotesize\ttfamily dictionary conversion\+\_\+calculator.\+conversion\+\_\+table}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  \{0: \textcolor{stringliteral}{'0'}, 1: \textcolor{stringliteral}{'1'}, 2: \textcolor{stringliteral}{'2'}, 3: \textcolor{stringliteral}{'3'},
+2                     4: \textcolor{stringliteral}{'4'}, 5: \textcolor{stringliteral}{'5'}, 6: \textcolor{stringliteral}{'6'}, 7: \textcolor{stringliteral}{'7'},
+3                     8: \textcolor{stringliteral}{'8'}, 9: \textcolor{stringliteral}{'9'}, 10: \textcolor{stringliteral}{'A'}, 11: \textcolor{stringliteral}{'B'},
+4                     12: \textcolor{stringliteral}{'C'}, 13: \textcolor{stringliteral}{'D'}, 14: \textcolor{stringliteral}{'E'}, 15: \textcolor{stringliteral}{'F'}\}
+\end{DoxyCode}
+\mbox{\Hypertarget{conversion__calculator_8py_file_ad25a9c4cae71325d2190156985345f5b}\label{conversion__calculator_8py_file_ad25a9c4cae71325d2190156985345f5b}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!crypto\+C\+Vals@{crypto\+C\+Vals}}
+\index{crypto\+C\+Vals@{crypto\+C\+Vals}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{crypto\+C\+Vals}{cryptoCVals}}
+{\footnotesize\ttfamily dictionary conversion\+\_\+calculator.\+crypto\+C\+Vals}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  \{
+2     (\textcolor{stringliteral}{"Bitcoin"}, \textcolor{stringliteral}{"Ethereum"}): 14.04,
+3     (\textcolor{stringliteral}{"Bitcoin"}, \textcolor{stringliteral}{"Dogecoin"}): 344342.42,
+4     (\textcolor{stringliteral}{"Ethereum"}, \textcolor{stringliteral}{"Bitcoin"}): 0.071,
+5     (\textcolor{stringliteral}{"Ethereum"}, \textcolor{stringliteral}{"Dogecoin"}): 24483.37,
+6     (\textcolor{stringliteral}{"Dogecoin"}, \textcolor{stringliteral}{"Bitcoin"}): 0.0000029,
+7     (\textcolor{stringliteral}{"Dogecoin"}, \textcolor{stringliteral}{"Ethereum"}): 0.000041,
+8 
+9 \}
+\end{DoxyCode}
+\mbox{\Hypertarget{conversion__calculator_8py_file_a9977e96e38f797f905624b29ce4c2dfe}\label{conversion__calculator_8py_file_a9977e96e38f797f905624b29ce4c2dfe}} 
+\index{conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}!currency\+C\+Vals@{currency\+C\+Vals}}
+\index{currency\+C\+Vals@{currency\+C\+Vals}!conversion\+\_\+calculator.\+py@{conversion\+\_\+calculator.\+py}}
+\subsubsection{\texorpdfstring{currency\+C\+Vals}{currencyCVals}}
+{\footnotesize\ttfamily dictionary conversion\+\_\+calculator.\+currency\+C\+Vals}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+1 =  \{
+2     (\textcolor{stringliteral}{"US Dollars"}, \textcolor{stringliteral}{"Euros"}): 0.91,
+3     (\textcolor{stringliteral}{"US Dollars"}, \textcolor{stringliteral}{"Jap Yen"}): 119.45,
+4     (\textcolor{stringliteral}{"US Dollars"}, \textcolor{stringliteral}{"Pounds"}): 0.76,
+5     (\textcolor{stringliteral}{"US Dollars"}, \textcolor{stringliteral}{"CA Dollars"}): 1.26,
+6 
+7     (\textcolor{stringliteral}{"Euros"}, \textcolor{stringliteral}{"US Dollars"}): 1.10,
+8     (\textcolor{stringliteral}{"Euros"}, \textcolor{stringliteral}{"Jap Yen"}): 131.70,
+9     (\textcolor{stringliteral}{"Euros"}, \textcolor{stringliteral}{"Pounds"}): 0.84,
+10     (\textcolor{stringliteral}{"Euros"}, \textcolor{stringliteral}{"CA Dollars"}): 1.39,
+11 
+12     (\textcolor{stringliteral}{"Jap Yen"}, \textcolor{stringliteral}{"US Dollars"}): 0.0084,
+13     (\textcolor{stringliteral}{"Jap Yen"}, \textcolor{stringliteral}{"Euros"}): 0.0076,
+14     (\textcolor{stringliteral}{"Jap Yen"}, \textcolor{stringliteral}{"Pounds"}): 0.0064,
+15     (\textcolor{stringliteral}{"Jap Yen"}, \textcolor{stringliteral}{"CA Dollars"}): 0.011,
+16 
+17     (\textcolor{stringliteral}{"Pounds"}, \textcolor{stringliteral}{"US Dollars"}): 1.32,
+18     (\textcolor{stringliteral}{"Pounds"}, \textcolor{stringliteral}{"Euros"}): 1.19,
+19     (\textcolor{stringliteral}{"Pounds"}, \textcolor{stringliteral}{"Jap Yen"}): 157.36,
+20     (\textcolor{stringliteral}{"Pounds"}, \textcolor{stringliteral}{"CA Dollars"}): 1.66,
+21 
+22     (\textcolor{stringliteral}{"CA Dollars"}, \textcolor{stringliteral}{"US Dollars"}): 0.79,
+23     (\textcolor{stringliteral}{"CA Dollars"}, \textcolor{stringliteral}{"Euros"}): 0.72,
+24     (\textcolor{stringliteral}{"CA Dollars"}, \textcolor{stringliteral}{"Jap Yen"}): 0.60,
+25     (\textcolor{stringliteral}{"CA Dollars"}, \textcolor{stringliteral}{"Pounds"}): 94.70,
+26 \}
+\end{DoxyCode}
