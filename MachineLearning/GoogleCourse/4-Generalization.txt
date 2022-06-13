@@ -1,0 +1,22 @@
+Generalization:
+- We do not want to make our model too focused on our training data (over fitted)
+- Overfit model: Low loss during training but does a poor job predicting new data. Usually caused by making model more complex than necessary
+
+William Ockham's razor:
+- The less complex a ML model, the more likely that a good empirical result is not just due to the peculiarities of the sample.
+
+Generalization bounds (models ability to generalize to new data based on):
+- complexity of the model
+- model's performance on training data
+
+Divide data set into 2 subsets:
+- training set: train a model
+- test set: test a model
+- Assuming that both sets are big enough and a variety of test sets are used
+
+Three basic assumptions of generalization:
+- We draw examples independently and identically (i.i.d) at random from the distribution. In other words, examples don't influence each other. (An alternate explanation: i.i.d. is a way of referring to the randomness of variables.)
+- The distribution is stationary; that is the distribution doesn't change within the data set.
+- We draw examples from partitions from the same distribution.
+
+In practice, some of these assumptions may be violated

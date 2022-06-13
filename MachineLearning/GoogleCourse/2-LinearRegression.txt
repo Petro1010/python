@@ -1,0 +1,19 @@
+Learning From Data:
+- data set of House square footage (x) vs housing price (y)
+- We will see that there is a linear relationship. A linear model
+- y' = w1x1 + b (y' -- predicted label, b -- bias, w1 -- weight of feature 1, x1 -- feature)
+- loss: the difference between the prediction and the actual value. How bad the predicition was for a particular example.
+
+Loss Function for Regression:
+- Loss for a given example is called square error
+- (observation - prediction)^2 or (y - y')^2
+- we want to minimize loss across the entire data set
+- Mean Square error = average squared loss per example. Sum all squared losses and divide by number of examples given.
+
+Training:
+- determining good values for all the weights and the bias from labeled examples.
+- Empirical risk minimizaiton: creating a model the minimizes the loss
+
+Example:
+Mean Squared Error left: 0 + 1 + 0 + 1 + 0 + 1 + 0 + 1 + 0 + 0 = 4 / 10 = 0.4
+Mean Squared Error right: 0 + 0 + 0 + 2^2 + 0 + 0 + 0 + 2^2 + 0 + 0 = 8 / 10 = 0.8
