@@ -1,0 +1,21 @@
+Sparse vectors often contain many dimensions. Creating a feature cross results in even more dimensions. Given such high-dimensional feature vectors, model size may become huge and require huge amounts of RAM.
+
+L1 Regularization:
+
+In this case, we want to encourage weights to drop to 0, which will help us to save RAM and reduce noise in the model.
+
+L2 regualarization would not accomplish this task as it forces weights to be small but not exactly 0.
+
+L2 and L1 penalize weights differently:
+ - L2 penalizes weight2.
+ - L1 penalizes |weight|.
+
+Consequently, L2 and L1 have different derivatives:
+ - The derivative of L2 is 2 * weight.
+ - The derivative of L1 is k (a constant, whose value is independent of weight).
+
+
+L1 regularization usually reduces the model size
+
+
+

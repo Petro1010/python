@@ -1,0 +1,9 @@
+Many problems require a probability estimate as output. Logistic regression is an extremely efficient mechanism for calculating probabilities.
+
+In many cases, you'll map the logistic regression output into the solution to a binary classification problem, in which the goal is to correctly predict one of two possible labels (e.g., "spam" or "not spam").
+
+You might be wondering how a logistic regression model can ensure output that always falls between 0 and 1. As it happens, a sigmoid function, defined as follows, produces output having those same characteristic
+
+Use log loss function for logistic regression.
+
+Regularization plays a really important role, as the asymtotic nature of logistic regression would result in huge weights (infinite) and complexity for the model.

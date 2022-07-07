@@ -1,0 +1,13 @@
+Only one large data set:
+ - split into training and test set (important to randomize before doing this)
+ - how big to do the split?
+
+ - never train on test data, will lead to bias of a good model. (should not have 100% accuracy on test data)
+
+Make sure that your test set meets the following two conditions:
+
+Is large enough to yield statistically meaningful results.
+Is representative of the data set as a whole. In other words, don't pick a test set with different characteristics than the training set.
+
+Partitioning a data set into a training set and test set lets you judge whether a given model will generalize well to new data. However, using only two partitions may be insufficient when doing many rounds of hyperparameter tuning.
+

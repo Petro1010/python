@@ -1,0 +1,15 @@
+Logistic regression returns a probability. You can use the returned probability "as is" (for example, the probability that the user will click on this ad is 0.00023) or convert the returned probability to a binary value (for example, this email is spam).
+
+In order to map a logistic regression value to a binary category, you must define a classification threshold (also called the decision threshold). Everything above the threshold belongs to one category and everything below a threshold belongs to another category.
+
+A true positive is an outcome where the model correctly predicts the positive class. Similarly, a true negative is an outcome where the model correctly predicts the negative class.
+
+A false positive is an outcome where the model incorrectly predicts the positive class. And a false negative is an outcome where the model incorrectly predicts the negative class.
+
+Accuracy is one metric for evaluating classification models. Informally, accuracy is the fraction of predictions our model got right. 
+
+Precision attempts to answer the following question:
+What proportion of positive identifications was actually correct?
+
+Recall attempts to answer the following question:
+What proportion of actual positives was identified correctly?

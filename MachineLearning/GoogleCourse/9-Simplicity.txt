@@ -1,0 +1,21 @@
+Regularization for Simplicity: L2 Regulartization
+
+Eventually, our model may start to overfit our training data resulting in more loss within the validation set. We can solve this using regularization.
+
+Now, instead of just trying to minimize loss, we also want to consider the complexity of our model aswell.
+
+minimize(Loss + complexity)
+
+Model complexity is related to the weights of all the features in the model and the total number of features with non zero weights
+
+L2 regularization term = w1^2 + w2^2 + ... + wn^2 (sum of square of all weights)
+
+We can tune the impact of the regularization term using lambda (regularization rate).
+
+Performing L2 regularization has the following effect on a model:
+
+- Encourages weight values toward 0 (but not exactly 0)
+- Encourages the mean of the weights toward 0, with a normal (bell-shaped or Gaussian) distribution.
+
+Increasing lambda increases the effect of regularization. Lambda is chosen to find the right balance between simplicity of the model and fitting to the training data.
+

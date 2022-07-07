@@ -1,0 +1,14 @@
+Solving non-linear problems:
+- sometimes a problem can not be solved by using a linear model
+- In this case, we can create a feature cross
+- feature cross: synthetic feature that encodes nonlinearity in the feature space by multiplying two or more input features together.
+- new cross feature x3 = x1x2, results in new formula y = b + w1x1 + w2x2 + w3x3
+- cross features can be done through the multiplication of any number of features
+- Cross features of one-hot feature vectors. The cross of 2 strings for examples will be str1 and str2. Ex. (country:USA and language:spanish)
+- linear learners usually scale well to massive data, so feature crosses allow us to create more complex models while still remaining linear
+
+
+Different cities in California have markedly different housing prices. Suppose you must create a model to predict housing prices. Which of the following sets of features or feature crosses could learn city-specific relationships between roomsPerPerson and housing price?
+
+One feature cross: [binned latitude X binned longitude X binned roomsPerPerson]
+Crossing binned latitude with binned longitude enables the model to learn city-specific effects of roomsPerPerson. Binning prevents a change in latitude producing the same result as a change in longitude. Depending on the granularity of the bins, this feature cross could learn city-specific or neighborhood-specific or even block-specific effects.

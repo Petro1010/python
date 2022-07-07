@@ -1,0 +1,7 @@
+We discussed before that non-linear data can be solved with cross features. However, when the data gets more complex, this may not be effective.
+
+To model a nonlinear problem, we can directly introduce a nonlinearity. We can pass our hidden node values into nonlinear function (Activation function)
+
+Common Activation functions include:
+ - Sigmoid which converts weighted sum to value between 0 and 1
+ - Relu function makes the output of every x value 0

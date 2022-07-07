@@ -1,0 +1,25 @@
+Mapping Raw Data to Features:
+- feature vector, which is the set of floating-point values comprising the examples in your data set. 
+- Feature engineering means transforming raw data into a feature vector.
+
+Mapping Categorical Values:
+- discrete set of possible values
+- Ex. Street Name
+
+One-hot encoding:
+- For values that apply to the example, set corresponding vector elements to 1.
+- Set all other elements to 0.
+- effectively creates a boolean array
+
+Quality of Good Features:
+- Avoid rarely used discrete feature values (want feature with repeating values)
+- Clear and obvious meanings (clearly named and value makes sense)
+- Do not mix magic values with actual data (no nulls or -1 in place of an actual value), instead use a boolean feature to mark if other feature is valid or not
+- definition of feature does not change over time
+
+Cleaning the data:
+- Scaling: reducing very large values to a standard range
+- Handling extreme outliers: use logarithmic scales, ignore all outlier values
+- Binning: transform values that do not follow specfic trends into different bins
+- Scrubbing: getting rid of bad examples
+- Know your data set

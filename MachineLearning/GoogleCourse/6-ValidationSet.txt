@@ -1,0 +1,4 @@
+To stop over fitting on test data, we can partition into 3 sets: training, validation and test data.
+
+Follow this specific workflow:
+Use the validation set to evaluate results from the training set. Then, use the test set to double-check your evaluation after the model has "passed" the validation set. Pick the model that does best on the validation set and then double check the model against the test set. This leads to less exposures to the test set.
